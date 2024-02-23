@@ -64,7 +64,7 @@ def sidebar():
     st.sidebar.markdown("---")
 
     # Display footer - Copyright info
-    st.sidebar.markdown("`©2023 by Omdena. All rights reserved.`", unsafe_allow_html=True)
+    st.sidebar.markdown("`©2023 by Binary Bandits. All rights reserved.`", unsafe_allow_html=True)
 
 
 def chat():
@@ -133,7 +133,7 @@ def chat():
 def page_config():
     # Set the page config
     st.set_page_config(
-        page_title="Omdena Chatbot",  # The title of the web page
+        page_title="Chatbot",  # The title of the web page
         page_icon="💬",  # The icon of the web page, can be an emoji or a file path
         initial_sidebar_state="expanded",  # Expanded sidebar
     )
