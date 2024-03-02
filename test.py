@@ -167,3 +167,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+
+    [{"role": "user", "content": "You are a chatbot designed to ask me questions about my career. Ask me the first question."}]
