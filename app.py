@@ -5,7 +5,7 @@ from call_back import answer_call_back
 # submit job description
 jd = st.text_area("Please enter the job description here (If you don't have one, enter keywords, such as PostgreSQL or Python instead): ")
 # auto play audio
-auto_play = st.checkbox("Let AI interviewer speak! (Please don't switch during the interview)")
+# auto_play = st.checkbox("Let AI interviewer speak! (Please don't switch during the interview)")
 
 if jd:
     # initialize session states
