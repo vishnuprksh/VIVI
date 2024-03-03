@@ -14,10 +14,9 @@ def answer_call_back():
             Message("human", input)
         )
         # OpenAI answer and save to history
-        llm_answer = st.session_state.conversation.invoke(input)
+        llm_answer = st.session_state.conversation.run(input)
 
         # save audio data to history
         st.session_state.history.append(
             Message("ai", llm_answer)
         )
-        st.session_state.token_count += cb.total_tokens
